@@ -931,6 +931,144 @@ footer {
   font-size: 0.9rem;
 }
 
+/* SEO 直接答案區塊 */
+.seo-answer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 0;
+}
+
+.seo-answer p {
+  background: white;
+  border-left: 4px solid var(--primary);
+  padding: 1.25rem 1.5rem;
+  margin: 0;
+  color: var(--ink-light);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 2px 12px var(--shadow);
+}
+
+.seo-answer strong {
+  color: var(--ink);
+}
+
+/* 部落格 */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.blog-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px var(--shadow);
+}
+
+.blog-card-image {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  background: var(--paper-warm);
+}
+
+.blog-card-body {
+  padding: 1.75rem;
+}
+
+.blog-date {
+  font-size: 0.8rem;
+  color: var(--ink-light);
+  letter-spacing: 0.05em;
+}
+
+.blog-card h2 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.blog-card h2 a {
+  color: var(--ink);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.blog-card h2 a:hover {
+  color: var(--primary);
+}
+
+.blog-card p {
+  color: var(--ink-light);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.blog-read-more {
+  font-size: 0.85rem;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.blog-read-more:hover {
+  text-decoration: underline;
+}
+
+.blog-article {
+  padding-top: 2rem;
+}
+
+.blog-article-inner {
+  max-width: 760px;
+}
+
+.blog-lead {
+  font-size: 1.15rem;
+  color: var(--ink-light);
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.blog-article h2 {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.35rem;
+  margin: 2rem 0 1rem;
+}
+
+.blog-article p {
+  color: var(--ink-light);
+  margin-bottom: 1.25rem;
+}
+
+.blog-article a {
+  color: var(--primary);
+}
+
+.blog-cta {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: var(--paper-warm);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.blog-cta p {
+  margin-bottom: 1rem;
+  color: var(--ink);
+}
+
 /* 響應式 */
 @media (max-width: 900px) {
   .nav-links {
