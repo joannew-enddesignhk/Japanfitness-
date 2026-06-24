@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>和風健身中心 | 聯絡我們</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <nav>
+      <a href="index.html" class="logo">
+        <div class="logo-icon">和</div>
+        <div>
+          <span class="logo-text">和風健身中心</span>
+          <span class="logo-sub">WAFU FITNESS</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="about.html">關於我們</a></li>
+        <li><a href="classes.html">課程</a></li>
+        <li><a href="membership.html">會員方案</a></li>
+        <li><a href="contact.html" class="nav-cta active">免費體驗</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="開啟選單">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="breadcrumb"><a href="index.html">首頁</a> / 聯絡我們</div>
+      <h1>聯絡我們</h1>
+      <p>預約免費體驗課程，或隨時與我們聯繫</p>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>與我們聯繫</h3>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>地址</h4>
+                <p>香港銅鑼灣告士打道 280 號<br>世貿中心 15 樓</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <h4>電話</h4>
+                <p>+852 2123 4567</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <h4>電郵</h4>
+                <p>info@wafufitness.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <h4>營業時間</h4>
+                <p>週一至週日：06:00 – 23:00<br>公眾假期：08:00 – 20:00</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🚇</div>
+              <div>
+                <h4>交通</h4>
+                <p>港鐵銅鑼灣站 A 出口<br>步行約 5 分鐘</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <h3 style="font-family: 'Noto Serif JP', serif; font-size: 1.35rem; margin-bottom: 1.5rem;">預約免費體驗</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">姓名 *</label>
+                <input type="text" id="name" name="name" required placeholder="請輸入您的姓名">
+              </div>
+              <div class="form-group">
+                <label for="phone">電話 *</label>
+                <input type="tel" id="phone" name="phone" required placeholder="請輸入聯絡電話">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">電郵</label>
+              <input type="email" id="email" name="email" placeholder="請輸入電郵地址">
+            </div>
+            <div class="form-group">
+              <label for="interest">感興趣的課程</label>
+              <select id="interest" name="interest">
+                <option value="">請選擇課程</option>
+                <option value="boxing">和風拳擊有氧</option>
+                <option value="yoga">禪意瑜伽</option>
+                <option value="kendo">劍道體能訓練</option>
+                <option value="karate">空手道健身</option>
+                <option value="cycling">動感單車</option>
+                <option value="pilates">普拉提</option>
+                <option value="personal">私人訓練</option>
+                <option value="tour">參觀設施</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">偏好日期</label>
+                <input type="date" id="date" name="date">
+              </div>
+              <div class="form-group">
+                <label for="time">偏好時段</label>
+                <select id="time" name="time">
+                  <option value="">請選擇時段</option>
+                  <option value="morning">上午 (06:00 – 12:00)</option>
+                  <option value="afternoon">下午 (12:00 – 18:00)</option>
+                  <option value="evening">晚上 (18:00 – 23:00)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">備註</label>
+              <textarea id="message" name="message" placeholder="有任何問題或特殊需求，請在此告訴我們"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">提交預約</button>
+          </form>
+        </div>
+
+        <div class="map-placeholder">
+          📍 地圖位置：香港銅鑼灣告士打道 280 號世貿中心 15 樓
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--paper-warm); padding-top: 0;">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-tag">常見問題</span>
+          <h2>預約須知</h2>
+        </div>
+        <div class="values-grid">
+          <div class="value-item">
+            <h4>免費體驗包含什麼？</h4>
+            <p>免費體驗包括設施參觀、一堂團體課程體驗（約 60 分鐘），以及與健身顧問的諮詢服務。</p>
+          </div>
+          <div class="value-item">
+            <h4>需要帶什麼？</h4>
+            <p>請穿著舒適運動服裝及運動鞋。我們提供毛巾及飲用水，您也可自備水壺。</p>
+          </div>
+          <div class="value-item">
+            <h4>如何確認預約？</h4>
+            <p>提交表格後，我們的團隊會在 24 小時內以電話或電郵確認您的預約詳情。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="logo-text">和風健身中心</span>
+          <p>融合日本傳統武道精神與現代健身科學，致力於為每位會員打造身心合一的健康生活方式。</p>
+        </div>
+        <div class="footer-col">
+          <h4>快速連結</h4>
+          <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="about.html">關於我們</a></li>
+            <li><a href="classes.html">課程</a></li>
+            <li><a href="membership.html">會員方案</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>課程</h4>
+          <ul>
+            <li><a href="classes.html">拳擊有氧</a></li>
+            <li><a href="classes.html">禪意瑜伽</a></li>
+            <li><a href="classes.html">劍道體能</a></li>
+            <li><a href="classes.html">私人訓練</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>聯絡我們</h4>
+          <ul>
+            <li><a href="contact.html">預約體驗</a></li>
+            <li><a href="tel:+85221234567">+852 2123 4567</a></li>
+            <li><a href="mailto:info@wafufitness.com">info@wafufitness.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 和風健身中心 Wafu Fitness Centre. 版權所有。</span>
+        <span>營業時間：週一至週日 06:00 – 23:00</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/85222223333" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="透過 WhatsApp 聯絡我們">
+    <span class="whatsapp-float-tooltip">WhatsApp 查詢</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    const header = document.getElementById('header');
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('感謝您的預約！我們的團隊將在 24 小時內與您聯繫確認詳情。');
+      this.reset();
+    });
+  </script>
+</body>
+</html>

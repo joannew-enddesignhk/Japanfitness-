@@ -1,0 +1,12 @@
+# 和風健身中心 Wafu Fitness Centre
+User-agent: *
+Allow: /
+
+# 傳統搜尋引擎
+Sitemap: https://www.wafufitness.com/sitemap.xml
+
+# Agentic Resource Discovery (ARD) — Google 及合作夥伴 AI 代理資源發現
+Agentmap: https://www.wafufitness.com/.well-known/ai-catalog.json
+
+# IndexNow 金鑰驗證檔
+# https://www.indexnow.org/documentation

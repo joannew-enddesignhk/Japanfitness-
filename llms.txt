@@ -1,0 +1,31 @@
+# 和風健身中心 Wafu Fitness Centre
+
+> 和風健身中心是香港銅鑼灣的日式健身會所，融合日本武道精神與現代健身科學，提供拳擊有氧、禪意瑜伽、劍道體能、空手道健身等團體課程及私人訓練，月費由 HK$680 起，營業時間為每日 06:00–23:00，並提供免費體驗預約。
+
+本網站以繁體中文為主要語言（lang=zh-Hant）。聯絡電話：+852 2123 4567；WhatsApp：+852 2222 3333；地址：香港銅鑼灣告士打道 280 號世貿中心 15 樓。
+
+## 主要頁面
+
+- [首頁](https://www.wafufitness.com/index.html.md): 健身中心概覽、特色、熱門課程與統計數據
+- [關於我們](https://www.wafufitness.com/about.html.md): 品牌故事、核心理念、教練團隊與設施介紹
+- [課程](https://www.wafufitness.com/classes.html.md): 全部團體課程、私人訓練及每週課表
+- [會員方案](https://www.wafufitness.com/membership.html.md): 體驗、標準、尊榮三種月費方案及年費優惠
+- [聯絡我們](https://www.wafufitness.com/contact.html.md): 地址、電話、營業時間及免費體驗預約表單
+
+## 部落格
+
+- [冬季健身五大要訣](https://www.wafufitness.com/blog/winter-training-tips.html.md): 寒冷季節安全有效訓練的實用建議
+- [武道融合訓練的健康益處](https://www.wafufitness.com/blog/martial-arts-fitness-benefits.html.md): 空手道、劍道元素如何提升身心協調
+
+## 結構化知識（Open Knowledge Format）
+
+- [OKF 知識庫索引](https://www.wafufitness.com/okf/index.md): 以 Google Open Knowledge Format v0.1 整理的健身中心結構化知識，供 AI 代理深度理解業務、課程與會員方案
+
+## AI 代理資源目錄（ARD）
+
+- [ai-catalog.json](https://www.wafufitness.com/.well-known/ai-catalog.json): Agentic Resource Discovery 規格目錄，列出可預約體驗、查詢課表等代理可發現的資源
+
+## Optional
+
+- [網站地圖](https://www.wafufitness.com/sitemap.xml): 全部可索引頁面 URL
+- [robots.txt](https://www.wafufitness.com/robots.txt): 爬蟲規則及 ARD Agentmap 指令
